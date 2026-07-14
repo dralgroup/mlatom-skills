@@ -1,0 +1,15 @@
+cff-version: 1.2.0
+title: "MLatom Skills"
+abstract: "A community collection of AI-agent skills for MLatom."
+message: >-
+  If you use these skills, please cite MLatom and the specific methods you used.
+  If a skill accompanies a publication, cite that paper too (see the skill's
+  Cite section).
+type: dataset
+authors:
+  - family-names: Dral
+    given-names: Pavlo O.
+    affiliation: Xiamen University
+url: "https://github.com/dralgroup/mlatom-skills"
+repository-code: "https://github.com/dralgroup/mlatom-skills"
+license: Apache-2.0

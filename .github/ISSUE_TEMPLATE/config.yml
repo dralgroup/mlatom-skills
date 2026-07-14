@@ -1,0 +1,8 @@
+blank_issues_enabled: true
+contact_links:
+  - name: MLatom documentation
+    url: http://mlatom.com/docs/
+    about: Manuals and tutorials for MLatom itself.
+  - name: MLatom (main package) issues
+    url: https://github.com/dralgroup/mlatom/issues
+    about: Bugs in MLatom itself (not in a skill) belong here.
