@@ -29,12 +29,14 @@ conda activate aiqm3
 pip install -U "numpy<2" torch==2.1.2 torchani==2.2.3 mlatom aitomic-addons joblib pyscf geometric
 ```
 
-AIQM3 also uses D3 dispersion — install `s-dftd3` and point `dftd3bin` at the executable:
+AIQM3 also uses D3 dispersion. MLatom runs `s-dftd3` as a separate program, so it must be on the system and `dftd3bin` must point at the executable:
 
 ```bash
-conda install -c conda-forge dftd3
+conda install -c conda-forge simple-dftd3
 export dftd3bin=$CONDA_PREFIX/bin/s-dftd3
 ```
+
+The conda-forge package is called `simple-dftd3`. `pip install dftd3` installs Python bindings only — no `s-dftd3` executable — so it does not make AIQM3 work. Without it, AIQM3 fails at model construction, historically with a misleading "method is not detected in any of the interfaces" error.
 
 For plain MLatom without the add-ons, `pip install -U mlatom` plus the dependencies you need is enough — see the [installation guide](http://mlatom.com/docs/installation.html).
 
