@@ -21,6 +21,8 @@ Prefer not to install anything? MLatom and many of these methods run online, reg
 | Skill | What it does | MLatom |
 |-------|--------------|--------|
 | [`installing-mlatom`](skills/installing-mlatom/SKILL.md) | Install MLatom and the AIQM3 add-ons in a clean environment; diagnose the common install failures | ≥ 3.23 |
+| [`omni-p3x-single-point`](skills/omni-p3x-single-point/SKILL.md) | Calculate singlet excitation energies, oscillator strengths, and optional gradients or charges | ≥ 3.28 |
+| [`omni-p3x-uvvis`](skills/omni-p3x-uvvis/SKILL.md) | Plot a fixed-geometry UV/vis absorption spectrum and export its data | ≥ 3.28 |
 
 _More coming — and yours is welcome (see below)._
 
